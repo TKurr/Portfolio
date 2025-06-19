@@ -1,6 +1,4 @@
 import { RiCss3Fill, RiCss3Line, RiHtml5Fill, RiHtml5Line, RiJavascriptLine, RiNextjsFill, RiNextjsLine, RiNodejsLine, RiReactjsLine, RiTailwindCssFill, RiTailwindCssLine } from "react-icons/ri"
-import { FaC } from "react-icons/fa6"
-import { FaPython } from "react-icons/fa"
 
 const Tech = () => {
   return (

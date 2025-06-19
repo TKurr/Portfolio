@@ -10,8 +10,8 @@ const Navbar = () => {
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
       <a href="https://www.linkedin.com/in/theo-kurniady/"><FaLinkedin/></a>
-      <a href="https://github.com/Stahlynx"><FaGithub/></a>
-      <a href="https://www.instagram.com/yang_kau_cari_bukan_disini/"><FaInstagram/></a> 
+      <a href="https://github.com/TKurr"><FaGithub/></a>
+      <a href="https://www.instagram.com/theo_kurr/"><FaInstagram/></a> 
     </div>
   </nav>
 }
