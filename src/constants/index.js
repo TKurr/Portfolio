@@ -15,6 +15,7 @@ import project14 from "../assets/projects/project-14.png";
 import project15 from "../assets/projects/project-15.png";
 import project16 from "../assets/projects/project-16.png";
 import project17 from "../assets/projects/project-17.png";
+import project18 from "../assets/projects/project-18.png";
 
 export const HERO_CONTENT = `I am a second year undergraduate from Bandung's Institute of Technology with a knack for crafting robust and scalable web applications. During my journey of learning technologies, I have honed my skills mostly in front-end technologies like React and Next.js and in pursue of knowledge around backend technologies. My goal is to improve and expand my skills and knowledge to learn new things around technologies.`;
 
@@ -84,6 +85,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Color Connect Solver",
+    image: project18,
+    link: "https://github.com/TKurr/Makalah_Stima",
+    description:
+      "An application that solves Color Connect puzzles by utilizing backtracking algorithm and manhattan distance heuristic.",
+    technologies: ["Java", "JavaFX"],
+  },
   {
     title: "Camel Up Game",
     image: project17,
