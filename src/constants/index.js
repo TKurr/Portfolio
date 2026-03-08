@@ -39,14 +39,14 @@ export const EXPERIENCES = [
   },
   {
     year: "2025",
-    role: "KM ITB Frontend Staff",
-    company: "ITB",
+    role: "Frontend Staff",
+    company: "KM ITB",
     description: `Joined as part of ITB's KM ITB team to help develop various websites of need.`,
   },
   {
     year: "2025",
     role: "October Graduation Event Tech Staff",
-    company: "ITB",
+    company: "HMIF ITB",
     description: `Joined as part of ITB's October Graduation Event team to help build its website.`,
   },
   {
