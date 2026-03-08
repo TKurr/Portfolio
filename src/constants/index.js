@@ -16,14 +16,53 @@ import project15 from "../assets/projects/project-15.png";
 import project16 from "../assets/projects/project-16.png";
 import project17 from "../assets/projects/project-17.png";
 import project18 from "../assets/projects/project-18.png";
+import project19 from "../assets/projects/project-19.png";
+import project20 from "../assets/projects/project-20.png";
+import project21 from "../assets/projects/project-21.png";
+import project22 from "../assets/projects/project-22.png";
+import project23 from "../assets/projects/project-23.png";
+import project24 from "../assets/projects/project-24.png";
+import project25 from "../assets/projects/project-25.png";
+import project26 from "../assets/projects/project-26.png";
+import project27 from "../assets/projects/project-27.png";
 
-export const HERO_CONTENT = `I am a second year undergraduate from Bandung's Institute of Technology with a knack for crafting robust and scalable web applications. During my journey of learning technologies, I have honed my skills mostly in front-end technologies like React and Next.js and in pursue of knowledge around backend technologies. My goal is to improve and expand my skills and knowledge to learn new things around technologies.`;
+export const HERO_CONTENT = `I am a third year undergraduate from Bandung's Institute of Technology with a knack for crafting robust and scalable web applications. I'm currently a Computer Engineering and Science Laboratory Assistant at Bandung's Institute of Technology. Eager to apply skills in programming, problem-solving, and teamwork to contribute to team success..`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile informatic undergraduate who is aiming to become full stack developer with a passion for creating efficient and user-friendly web applications. As an undergraduate who is aiming to be a full stack developer, I have worked with a variety of technologies including HTML, CSS, React, Next.js,and Tailwind CSS. My journey in web development began with a deep curiosity for how things work, and it has evolved into a state where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Other than web developments, I've also worked with programming languages, such as C, C++, python, java, and javascript. Outside of coding, I enjoy staying active and exploring new technologies. To fill my boredom, I like to play games and watch shows`;
+export const ABOUT_TEXT = `I am a dedicated and versatile informatic undergraduate who is aiming to become full stack developer with a passion for creating efficient and user-friendly web applications. As an undergraduate who is aiming to be a full stack developer, I have worked with a variety of technologies like React, Tailwind CSS, PostgreSQL, PHP, etc. My journey in web development began with a deep curiosity for how things work, and it has evolved into a state where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Other than web developments, I've also worked with programming languages, such as C, C++, python, java, and javascript. Outside of coding, I enjoy staying active and exploring new technologies. To fill my boredom, I like to play games and watch shows`;
 
 export const EXPERIENCES = [
   {
-    year: "2025 - Present",
+    year: "2026",
+    role: "IF2211 ALgorithm Strategy Course Assistant",
+    company: "ITB Computational Engineering and Science Laboratory",
+    description: `Became an assistant of IF2211 course to create various major and minor project assignments and supervise quizzes & exams.`,
+  },
+  {
+    year: "2025",
+    role: "KM ITB Frontend Staff",
+    company: "ITB",
+    description: `Joined as part of ITB's KM ITB team to help develop various websites of need.`,
+  },
+  {
+    year: "2025",
+    role: "October Graduation Event Tech Staff",
+    company: "ITB",
+    description: `Joined as part of ITB's October Graduation Event team to help build its website.`,
+  },
+  {
+    year: "2025",
+    role: "Computational Thinking Practicum Assistant",
+    company: "ITB",
+    description: `Became an assistant of Computational Thinking 2025 practicum for international shift 4.3.c.`,
+  },
+  {
+    year: "2025",
+    role: "IF2120 Probabilty and Statistics Course Assistant",
+    company: "ITB Computational Engineering and Science Laboratory",
+    description: `Became an assistant of IF2120 course to create major project assignment and supervise quizzes & exams.`,
+  },
+  {
+    year: "2025",
     role: "Technology Development Staff",
     company: "HMIF",
     description: `Joined as part of HMIF's Technology Development team to improve HMIF's super app.`,
@@ -86,17 +125,89 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Nimonspedia",
+    image: project27,
+    link: "https://github.com/TKurr/Nimonspedia",
+    description:
+      "Fullstack E-commerce utilizing Nginx and Redis on configuring interaction between PHP legacy code and React that implements websocket. While the legacy PHP code implements the usual e-commerce management like tokopedia, the react side implements live update features, like chat, live auction, push notification, and also admin's feature flag.",
+    technologies: ["HTML", "CSS", "PHP", "JavaScript", "React", "Tailwind CSS", "NodeJS", "MySQL", "Websocket", "Docker"],
+  },
+  {
+    title: "Raft Consensus",
+    image: project26,
+    link: "https://github.com/TKurr/Raft-Consensus",
+    description:
+      "A CLI program that simulates the Raft consensus algorithm through docker.",
+    technologies: ["Typescript", "RPC", "Docker"],
+  },
+  {
+    title: "TheoLearning",
+    image: project25,
+    link: "https://github.com/TKurr/TheoLearning",
+    description:
+      "A prgram that DTL, Logistic Regression, and SVM algorithms from scratch to classify university students final status",
+    technologies: ["Python"],
+  },
+  {
+    title: "Wumpus Enjoyer",
+    image: project24,
+    link: "https://github.com/TKurr/wumpus-enjoyer",
+    description:
+      "A program that implements traditional AI, such as Hill Climbings, Simmulated Annealing, and Genetic Algorithm, to automatically arrange a schedule.",
+    technologies: ["Python"],
+  },
+  {
+    title: "BBC - Big Black Compiler",
+    image: project23,
+    link: "https://github.com/TKurr/BBC-Tubes-IF2224",
+    description:
+      "A Indonesian-version of pascal compiler that is built until Semantic analysis.",
+    technologies: ["Python"],
+  },
+  {
+    title: "IRK Library",
+    image: project22,
+    link: "https://github.com/TKurr/IRK-Library",
+    description:
+      "A mobile application that provides a library for educational purpose, which are gaussian matrix calculator, cryptography algorithm like caesar cipher and RSA, and Huffman encoding & decoding with tree visualization and animation.",
+    technologies: ["Kotlin"],
+  },
+  {
+    title: "Judol Detector",
+    image: project21,
+    link: "https://github.com/TKurr/Judol-Detector",
+    description:
+      "A website that utilizes Youtube API to detect youtube comments that contain words that matches the inputed keyword list. Website also allows user to insert or delete multiple comments to the inputed youtube link.",
+    technologies: ["Typescript"],
+  },
+  {
+    title: "2D Shape Side Matcher",
+    image: project20,
+    link: "https://github.com/TKurr/2D-Shape-Side-Matching",
+    description:
+      "A website that calculates the matchness between the side of a single shape to the whole database of shapes with weighted levenshtein algorithm.",
+    technologies: ["Typescript", "FastAPI"],
+  },
+  {
+    title: "Quaternion Visualizer",
+    image: project19,
+    link: "https://github.com/TKurr/QuaternionVisualizer",
+    description:
+      "A custom engine quaternion visualizer that visualize quternion concept on 3D object (.obj).",
+    technologies: ["Python"],
+  },
+  {
     title: "Color Connect Solver",
     image: project18,
     link: "https://github.com/TKurr/Makalah_Stima",
     description:
-      "An application that solves Color Connect puzzles by utilizing backtracking algorithm and manhattan distance heuristic.",
+      "An program that solves Color Connect puzzles by utilizing backtracking algorithm and manhattan distance heuristic.",
     technologies: ["Java", "JavaFX"],
   },
   {
     title: "Camel Up Game",
     image: project17,
-    link: "", // tubes logkom
+    link: "https://github.com/TheoK13523154/praktikum-if1221-logika-komputasional-sigma-boy", // tubes logkom
     description:
       "A group of 4 project of a recreation of the game 'Camel Up'.",
     technologies: ["Prolog"],
@@ -104,7 +215,7 @@ export const PROJECTS = [
   {
     title: "Dotkom's Chat App",
     image: project16,
-    link: "", // tubes jarkom
+    link: "https://github.com/TKurr/Dotkom-Chat", // tubes jarkom
     description:
       "A group of 5 project of an application that utilize TCP over UDP to allow users to chat with each other in a server, including sending and receiving messages. This application also provides port-forwarding to allow users to access the server from outside the local network (online, no need to connect to the same network).",
     technologies: ["Python", "TKinter"],
@@ -112,7 +223,7 @@ export const PROJECTS = [
   {
     title: "Logistic Management App",
     image: project15,
-    link: "", // tubes oop 2
+    link: "https://github.com/TKurr/TIT-Logistic-Management", // tubes oop 2
     description:
       "A group of 5 project of an application that manages logistics, including managing shipments, couriers, and parcels. The application provides different features for different roles (admin & courier) and allows plugin usage on statistics.",
     technologies: ["Java", "JavaFX", "Maven"],
@@ -120,7 +231,7 @@ export const PROJECTS = [
   {
     title: "RPG Turn Based 'TIT Game'",
     image: project14, 
-    link: "", // tubes oop 1
+    link: "https://github.com/TKurr/TIT-game", // tubes oop 1
     description:
       "A group of 5 project of a game that features a turn-based battle system, various characters, skill trees, various items, and shop system.",
     technologies: ["C++", "SFML", "MakeFile"],
@@ -128,15 +239,15 @@ export const PROJECTS = [
   {
     title: "CLI Email Management",
     image: project13,
-    link: "", 
+    link: "https://github.com/TheoK13523154/if2110-tugas-besar-2024-if2110-03-c", 
     description:
       "A group of 5 project of a command line interface (CLI) application that allows users to manage their emails, including sending, receiving, and deleting emails. The application also provides notifications and statuses for each email, and can be used to send emails to multiple recipients at once. Additionally, users can encrypt and decrypt their emails.",
     technologies: ["C++", "MakeFile"],
   },
   {
-    title: "MacrOSoft",
+    title: "Macrosoft",
     image: project12,
-    link: "", // tubes os
+    link: "https://github.com/TKurr/Macrosoft", // tubes os
     description:
       "A group of 4 project of a simple operating system that feature shell commands, file system, and process management, etc. Additionally, this operating system can run bad apple",
     technologies: ["C", "Assembly", "QEMU"],

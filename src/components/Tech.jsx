@@ -1,4 +1,7 @@
 import { RiCss3Fill, RiCss3Line, RiHtml5Fill, RiHtml5Line, RiJavascriptLine, RiNextjsFill, RiNextjsLine, RiNodejsLine, RiReactjsLine, RiTailwindCssFill, RiTailwindCssLine } from "react-icons/ri"
+import kotlin from "../assets/kotlin.png"
+import php from "../assets/php.png"
+import postgre from "../assets/postgre.png"
 
 const Tech = () => {
   return (
@@ -37,6 +40,15 @@ const Tech = () => {
         </div>
         <div className="rounded-2xl group  hover:scale-[1.25] transition-all duration-300 border-4 border-purple-900 p-4">
           <img className="text-7xl text-gray-600 size-20" src="/mysql.png" alt="" />
+        </div>
+        <div className="rounded-2xl group  hover:scale-[1.25] transition-all duration-300 border-4 border-purple-900 p-4">
+          <img className="text-7xl text-gray-600 size-20" src={kotlin} alt="" />
+        </div>
+        <div className="rounded-2xl group  hover:scale-[1.25] transition-all duration-300 border-4 border-purple-900 p-4">
+          <img className="text-7xl text-gray-600 size-20" src={php} alt="" />
+        </div>
+        <div className="rounded-2xl group  hover:scale-[1.25] transition-all duration-300 border-4 border-purple-900 p-4">
+          <img className="text-7xl text-gray-600 size-20" src={postgre} alt="" />
         </div>
       </div>
     </div>

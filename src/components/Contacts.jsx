@@ -17,6 +17,9 @@ const Contacts = () => {
           <div><MdOutlineEmail /></div>
           <a className='border-b hover:border-purple-700 hover:text-purple-700' href="https://mail.google.com/mail/?view=cm&fs=1&to=theokurniady12@gmail.com&su=SUBJECT&body=BODY">{CONTACT.email}</a>
         </div>
+        <div className='flex items-center gap-2 mt-2'>
+          <p>Last Update on 08/03/2026</p>
+        </div>
       </div>
     </div>
   );
